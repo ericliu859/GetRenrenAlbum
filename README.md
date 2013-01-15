@@ -10,10 +10,17 @@ Second, input "signin" at the command and input username&password based on promp
 Third , input "save http://photo.renren.com/photo/320289729/album-517394069"
 
 3 commands:
+
 signin
+
 save
+
 exit
+
 3 help:
+
 help signin
+
 help save
+
 help exit
