@@ -101,6 +101,6 @@ class rradCmd(cmd.Cmd):
 		sys.exit(0)
 
 if __name__ == '__main__':
-	rrad_cmd = rradCmd()
-	rrad_cmd.cmdloop()	
+	rrad_cmd = rradCmd()	#初始化rradCmd
+	rrad_cmd.cmdloop()	#rrad_cmd循环
 	
