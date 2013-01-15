@@ -92,7 +92,7 @@ class rradCmd(cmd.Cmd):
 	def do_signin(self,null):
 		self.rrad.signin()
 	def help_save(self):
-		print 'Save the given album. Example:sava http://photo.renren.com/photo/253423487/album-396516481'
+		print 'Save the given album. Example:save http://photo.renren.com/photo/320289729/album-517394069'
 	def do_save(self,album_url):
 		self.rrad.save_album(album_url)
 	def help_exit(self):
