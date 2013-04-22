@@ -92,7 +92,11 @@ class rradCmd(cmd.Cmd):
 	def do_signin(self,null):
 		self.rrad.signin()
 	def help_save(self):
+<<<<<<< HEAD
 		print 'Save the given album. Example:sava http://photo.renren.com/photo/253423487/album-396516481'
+=======
+		print 'Save the given album. Example:save http://photo.renren.com/photo/320289729/album-517394069'
+>>>>>>> c48d540aff89599e3b202e0b5d1982ce20322a78
 	def do_save(self,album_url):
 		self.rrad.save_album(album_url)
 	def help_exit(self):
@@ -101,6 +105,11 @@ class rradCmd(cmd.Cmd):
 		sys.exit(0)
 
 if __name__ == '__main__':
+<<<<<<< HEAD
 	rrad_cmd = rradCmd()
 	rrad_cmd.cmdloop()	
+=======
+	rrad_cmd = rradCmd()	#初始化rradCmd
+	rrad_cmd.cmdloop()	#rrad_cmd循环
+>>>>>>> c48d540aff89599e3b202e0b5d1982ce20322a78
 	
